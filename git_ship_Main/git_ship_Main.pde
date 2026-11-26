@@ -41,7 +41,6 @@ boolean atWarp;
 boolean showDialogue;
 
 Star[] stars = new Star[400];
-Planet[] planets;
 Person person;
 Checksum healthbar;
 Junk junk;
