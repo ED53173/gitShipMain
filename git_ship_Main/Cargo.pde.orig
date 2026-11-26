@@ -3,10 +3,10 @@ ArrayList<String> cargo = new ArrayList<String>();
 
 void loadCargo(){
 <<<<<<< HEAD
-  cargo.add("Blueprints for GLaDOS");
-=======
   cargo.add("47 self-sealing stem-bolts");
   cargo.add("100 crates of Romulan Ale");
   cargo.add("An empty box of TimBits...");
->>>>>>> origin/CopilotsHolodeck
+=======
+  cargo.add("Blueprints for GLaDOS");
+>>>>>>> c6f7548c2d9a61bbbc5d857c248f84b00100fc6e
 }

@@ -7,20 +7,20 @@ String copilot = "";
 //spacecraft controls
 boolean viewscreen = true; //powers up main viewscreen
 <<<<<<< HEAD
-boolean displays = true; //powers up left and right cockpit displays
-boolean attitudeControl = true;
-boolean artificialGravity = true;
-boolean sensors = true; //turns on sensors
-boolean parkingBrake = false;
-boolean shields = true; //turns on shields
-=======
 boolean displays = false; //powers up left and right cockpit displays
 boolean attitudeControl = false;
 boolean artificialGravity = false;
 boolean sensors = false; //turns on sensors
 boolean parkingBrake = true;
 boolean shields = false; //turns on shields
->>>>>>> origin/CopilotsHolodeck
+=======
+boolean displays = true; //powers up left and right cockpit displays
+boolean attitudeControl = true;
+boolean artificialGravity = true;
+boolean sensors = true; //turns on sensors
+boolean parkingBrake = false;
+boolean shields = true; //turns on shields
+>>>>>>> c6f7548c2d9a61bbbc5d857c248f84b00100fc6e
 
 boolean redAlert = false; //turns on red alert
 
@@ -142,7 +142,6 @@ void dropOutOfWarp(){
 }
 
 <<<<<<< HEAD
-=======
 /////////////////////////////////////////////////////
 ///////////engineering working party/////////////////
 /////////////////////////////////////////////////////
@@ -166,7 +165,8 @@ void DeregulateDilithuimColumator(){
 //////////end engineering working party//////////////
 /////////////////////////////////////////////////////
 
->>>>>>> origin/CopilotsHolodeck
+=======
+>>>>>>> c6f7548c2d9a61bbbc5d857c248f84b00100fc6e
 void noSignal(){
   noStroke();
   fill(grey);
